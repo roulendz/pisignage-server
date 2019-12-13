@@ -18,16 +18,16 @@ fi
 #chagne permission
 sudo chmod -R 755 /data/
 
-# From https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
-echo " installing Node.js"
-curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-sudo apt-get install -y nodejs
+# # From https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+# echo " installing Node.js"
+# curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+# sudo apt-get install -y nodejs
 
 
-echo "installing pisignage-server"
-git clone https://github.com/colloqi/pisignage-server
-cd pisignage-server
-npm install
+# echo "installing pisignage-server"
+# git clone https://github.com/roulendz/pisignage-server
+# cd pisignage-server
+# npm install
 
 #create media and thumbnail directory
 cd ..
